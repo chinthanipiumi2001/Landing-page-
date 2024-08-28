@@ -40,3 +40,14 @@ header{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    color: #ffffff;
+    font-size: 2rem;
+    transition: 0.5s;
+}
