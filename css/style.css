@@ -31,3 +31,12 @@ header{
     padding: 20px 100Px;
     z-index: 1000;
 }
+
+.logo{
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
