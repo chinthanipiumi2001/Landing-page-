@@ -68,4 +68,15 @@ header{
 
 .nav li a {
     color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.nav li a:hover{
+    color: var(--primary);
 }
