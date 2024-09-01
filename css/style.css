@@ -80,3 +80,26 @@ header{
 .nav li a:hover{
     color: var(--primary);
 }
+
+/* Nav Mobile */
+.nav-mobile{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 990;
+    gap: 20px;
+}
+
+.nav-mobile li {
+    position: relative;
+    
+}
