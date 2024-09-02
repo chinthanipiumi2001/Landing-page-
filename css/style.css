@@ -101,6 +101,11 @@ header{
     visibility: hidden;
 }
 
+.nav-mobile.active {
+    opacity: 1;
+    visibility: visible;
+}
+
 .nav-mobile li {
     position: relative;
     list-style: none;
