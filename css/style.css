@@ -193,3 +193,24 @@ header{
     transform-style: preserve-3d;
 }
 
+.triangle-inverse{
+    position: absolute;
+    content: '';
+    top: 0;
+    left:calc(15vh + 5vh);
+    width: 30vh;
+    height: 30vh;
+    clip-path: polygon(0 100%, 50% 13%, 100% 100%);
+    cursor: pointer;
+    z-index: 900;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.triangle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
