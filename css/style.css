@@ -164,3 +164,15 @@ header{
     transition: 0.5s;
 }
 
+.banner .share:hover{
+    color: var(--primary);
+}
+
+.banner .share::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    
+}
+
