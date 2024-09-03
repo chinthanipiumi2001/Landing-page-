@@ -171,8 +171,25 @@ header{
 .banner .share::before{
     position: absolute;
     content: '';
+    top: 40px;
+    left: 50%;
+    width: 2px;
+    height: 100px;
+    background: #ffffff;
+}
+
+/* Triangle*/
+.triangle {
+    position: absolute;
+    content: '';
     top: 0;
     left: 0;
-    
+    width: 30vh;
+    height: 30vh;
+    clip-path: polygon(0 0, 50% 87%, 100% 0);
+    cursor: pointer;
+    z-index: 900;
+    transition: transform 1s;
+    transform-style: preserve-3d;
 }
 
