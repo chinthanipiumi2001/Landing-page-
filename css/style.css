@@ -207,6 +207,9 @@ header{
     transform-style: preserve-3d;
 }
 
+.triangle.two{
+    left: calc(30vh + 10vh);
+}
 .triangle-inverse img,
 .triangle img {
     width: 100%;
