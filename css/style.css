@@ -207,6 +207,7 @@ header{
     transform-style: preserve-3d;
 }
 
+.triangle-inverse img,
 .triangle img {
     width: 100%;
     height: 100%;
