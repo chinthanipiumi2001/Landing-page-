@@ -216,24 +216,25 @@ header{
 }
 
 .triangle.four{
-    left: calc(30vh + 5vh);
+    top: calc(30vh + 5vh);
     left: calc(15vh + 5vh);
 }
 
 .triangle.five{
-    left: calc(30vh + 5vh);
+    top: calc(30vh + 5vh);
     left: calc(45vh + 15vh);
 }
 
 .triangle.six{
-    left: calc(60vh + 10vh);
+    top: calc(60vh + 10vh);
     left: calc(30vh + 10vh);
 }
 
 .triangle.seven{
-    left: calc(60vh + 10vh);
+    top: calc(60vh + 10vh);
     left: calc(60vh + 20vh);
 }
+
 .triangle-inverse img,
 .triangle img {
     width: 100%;
