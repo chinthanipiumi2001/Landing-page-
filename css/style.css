@@ -235,6 +235,32 @@ header{
     left: calc(60vh + 20vh);
 }
 
+.triangle-inverse.two{
+    left: calc(45vh + 15vh);
+}
+
+.triangle-inverse.three{
+    top: calc(30vh + 5vh);
+    left: calc(30vh + 10vh);
+}
+
+.triangle-inverse.four{
+    top: calc(60vh + 10vh);
+    left: calc(45vh + 15vh);
+}
+
+.triangle-inverse.five{
+    top: calc(60vh + 10vh);
+    left: calc(75vh + 25vh);
+}
+
+/* 3D Flipping Effect*/
+.triangle:hover,
+.triangle-inverse:hover{
+    transform: rotateY(360deg);
+}
+
+
 .triangle-inverse img,
 .triangle img {
     width: 100%;
