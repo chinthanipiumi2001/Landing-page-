@@ -283,9 +283,20 @@ header{
     justify-content: center;
     align-items: center;
 }
-
 .flip-card-front{
     color: #ffffff;
+}
+
+.flip-card-back{
+    background: var(--primary);
+    color: #ffffff;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
 }
 
 .triangle-inverse img,
