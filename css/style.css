@@ -299,6 +299,15 @@ header{
     padding-top: 50px;
 }
 
+.flip-card-back .play{
+    font-size: 3em;
+    color: #ffffff;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+
+
 .triangle-inverse img,
 .triangle img {
     width: 100%;
