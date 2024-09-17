@@ -306,7 +306,13 @@ header{
     transform: scale(1);
 }
 
+.flip-card-back .play:hover{
+    transform: scale(1.5);
+}
 
+.triangle-inverse .flip-card-back{
+    padding-top: 150px;
+}
 
 .triangle-inverse img,
 .triangle img {
